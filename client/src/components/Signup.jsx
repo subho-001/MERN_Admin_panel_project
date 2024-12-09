@@ -108,56 +108,6 @@ function Signup() {
               />
             </Grid>
 
-            {/* Uncomment and modify these fields as needed */}
-            {/* <Grid item xs={12}>
-              <TextField
-                fullWidth
-                select
-                label="Designation"
-                {...register("designation", {
-                  required: { value: true, message: "*Designation is required" }
-                })}
-                error={Boolean(errors.designation)}
-                helperText={errors.designation?.message}
-              >
-                <MenuItem value="HR">HR</MenuItem>
-                <MenuItem value="Manager">Manager</MenuItem>
-                <MenuItem value="Sales">Sales</MenuItem>
-              </TextField>
-            </Grid>
-
-            <Grid item xs={12}>
-              <FormControl component="fieldset" error={Boolean(errors.gender)}>
-                <FormLabel component="legend">Gender</FormLabel>
-                <RadioGroup row {...register('gender', { required: "*Gender is required" })}>
-                  <FormControlLabel value="Male" control={<Radio />} label="Male" />
-                  <FormControlLabel value="Female" control={<Radio />} label="Female" />
-                </RadioGroup>
-                <FormHelperText>{errors.gender?.message}</FormHelperText>
-              </FormControl>
-            </Grid>
-
-            <Grid item xs={12}>
-              <FormControl component="fieldset" error={Boolean(errors.courses)}>
-                <FormLabel component="legend">Courses</FormLabel>
-                <FormGroup>
-                  <FormControlLabel
-                    control={<Checkbox value="MCA" {...register('courses', { required: "*At least one course is required" })} />}
-                    label="MCA"
-                  />
-                  <FormControlLabel
-                    control={<Checkbox value="BCA" {...register('courses', { required: "*At least one course is required" })} />}
-                    label="BCA"
-                  />
-                  <FormControlLabel
-                    control={<Checkbox value="BSc" {...register('courses', { required: "*At least one course is required" })} />}
-                    label="BSc"
-                  />
-                </FormGroup>
-                <FormHelperText>{errors.courses?.message}</FormHelperText>
-              </FormControl>
-            </Grid> */}
-
             <Grid item xs={12}>
               <Button variant="contained" color='success' type="submit" fullWidth>Submit</Button>
             </Grid>
